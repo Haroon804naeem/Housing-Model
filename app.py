@@ -60,7 +60,7 @@ import numpy as np
 import pandas as pd
 
 # Load files
-with open("housing_model.pkl", "rb") as f:
+with open("housing_ann_model.keras", "rb") as f:
     model = pickle.load(f)
 
 with open("scaler.pkl", "rb") as f:
